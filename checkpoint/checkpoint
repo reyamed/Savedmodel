@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\AZIZ\\Bureau\\PFA\\allClasses\\RealTimeObjectDetection\\fine_tuned_model\\checkpoint\\ckpt-0.data-00000-of-00001"
+all_model_checkpoint_paths: "C:\\Users\\AZIZ\\Bureau\\PFA\\allClasses\\RealTimeObjectDetection\\fine_tuned_model\\checkpoint\\ckpt-0.data-00000-of-00001"

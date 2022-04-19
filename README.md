@@ -24,4 +24,8 @@
      python -m tensorflow.python.tools.optimize_for_inference --input ./frozen_graph_final.pb --output ./optmized_graph_final.pb --frozen_graph=True --input_names="x" --output_names="Identity,Identity_1,Identity_2,Identity_3,Identity_4,Identity_5,Identity_6,Identity_7" 
 
 ```
+
 7. export the .pbtxt using the above script export-to-pbtxt.py
+8. this solution didn't work because of the "StatefulPartitionedCall" caused by eager execution from tensorflow 2. And this is not compatible with OpenCV
+9. Tried to convert the model to onnx but still got an error due to "StatefulPartitionedCall" again 
+10. I'll keep updating...
